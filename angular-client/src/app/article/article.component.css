@@ -1,0 +1,13 @@
+figure {
+  width: 300px;
+  height: 200px;
+  border: 1px solid gray;
+  box-shadow: -1px 1px 3px #c7c7c7;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.image {
+  height: 116px;
+  background-size: cover;    
+}

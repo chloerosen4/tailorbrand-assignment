@@ -1,0 +1,11 @@
+#header {
+  height: 40px; 
+  background: #525252; 
+  width: 100%;
+}
+
+#wrap {
+  display: flex; 
+  flex-flow: wrap; 
+  padding: 10px;
+}
