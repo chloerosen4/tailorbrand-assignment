@@ -1,0 +1,26 @@
+<style>
+  figure {
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .image {
+    height: 116px;
+    background-size: cover;    
+  }
+</style>
+
+<figure *ngIf="article">
+  <img />
+  <div>
+    <div class="image" style="background-image: url('{{ article.image }}')"></div>
+    <figcaption class="font-medium" style="padding: 10px;">
+      <div class="text-cyan-600">{{ article.headline }}</div>
+      <div class="text-gray-500">{{ article.sub_headline }}</div>
+    </figcaption>
+  </div>
+</figure>

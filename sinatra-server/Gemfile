@@ -1,0 +1,14 @@
+source 'http://rubygems.org'
+
+gem 'sinatra'
+gem 'rack-cors'
+gem 'airrecord'
+
+group :production do
+  gem 'thin'
+end
+
+group :development do
+  gem 'shotgun'
+end
+
